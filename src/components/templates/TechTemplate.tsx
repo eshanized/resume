@@ -6,7 +6,7 @@ export function TechTemplate({ resume }: { resume: Resume }) {
   const { personalInfo } = resume;
   
   return (
-    <div className="max-w-4xl mx-auto bg-gray-900 text-gray-300">
+    <div className="max-w-4xl mx-auto bg-gray-900 text-indigo-300">
       <div className="border-b border-gray-800">
         <div className="p-8">
           <div className="flex items-center gap-6">

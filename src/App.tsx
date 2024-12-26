@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Resume, TemplateType } from './types/resume';
 import { ResumeForm } from './components/ResumeForm';
 import { ModernTemplate } from './components/templates/ModernTemplate';
@@ -18,7 +18,7 @@ import { exportToWord } from './utils/wordExport';
 
 export default function App() {
   const [resume, setResume] = useState<Resume>(initialResume);
-  const [template, setTemplate] = useState<TemplateType>('vibrant');
+  const [template, setTemplate] = useState<TemplateType>('tech');
 
   const TemplateComponent = {
     modern: ModernTemplate,

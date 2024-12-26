@@ -1,5 +1,5 @@
-import React from 'react';
-import { Github } from 'lucide-react';
+// import React from 'react';
+// import { Github } from 'lucide-react';
 
 export function PrintCredit() {
   return (
