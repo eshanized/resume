@@ -93,7 +93,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 If you have any questions or feedback, feel free to reach out:
 
-- Email: [eshanized@gmail.com](mailto:eshanized@gmail.com)
+- Email: [m.eshanized@gmail.com](mailto:m.eshanized@gmail.com)
 - GitHub: [https://github.com/eshanized](https://github.com/eshanized)
 
 
