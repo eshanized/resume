@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eshanized.github.io/resume/sitemap.xml
