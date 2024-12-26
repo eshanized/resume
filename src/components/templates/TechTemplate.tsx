@@ -1,6 +1,5 @@
-import React from 'react';
 import { Resume } from '../../types/resume';
-import { Mail, Phone, MapPin, Globe, Linkedin, Github, Calendar, Award, Medal, Heart, Terminal } from 'lucide-react';
+import { Phone, MapPin, Linkedin, Github, Calendar, Award, Medal, Terminal } from 'lucide-react';
 
 export function TechTemplate({ resume }: { resume: Resume }) {
   const { personalInfo } = resume;

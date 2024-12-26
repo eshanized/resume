@@ -1,4 +1,3 @@
-import React from 'react';
 import { Resume } from '../../types/resume';
 import { Mail, Phone, MapPin, Globe, Linkedin, Github, Calendar, Award, Medal, Heart } from 'lucide-react';
 
