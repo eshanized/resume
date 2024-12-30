@@ -21,6 +21,18 @@ export default defineConfig({
     }),
   ],
   base: '/resume/', // Base path for GitHub Pages
+  build: {
+    outDir: 'dist', // Build files will be output here
+    assetsDir: 'assets', // Static assets (images, CSS, JS) go into the "assets" directory
+    rollupOptions: {
+      input: {
+        main: 'index.html', // Ensure Vite uses index.html as the entry point
+      },
+    },
+  },
+  server: {
+    open: true, // Automatically open the browser when running pnpm dev
+  },
   optimizeDeps: {
     exclude: ['lucide-react'], // Exclude lucide-react from pre-bundling
   },
